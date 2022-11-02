@@ -1,0 +1,60 @@
+@import './variables';
+
+body{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: $primaryColor;
+
+}
+/*Section start the first you see on the page*/
+.sectionStart {
+    text-align: center;
+    img {
+        margin-top: 10%;
+    }
+}
+
+/*section 1 below*/
+.section1 {
+    background-color: $primaryColor;
+    header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10%;
+        a {
+            position: sticky;
+            text-decoration: none;
+            color: $secondaryColor;
+            opacity: 50%;
+            z-index: 2;
+        }
+    }
+    .section1Container {
+        display: flex;
+        h1 {
+            color: $thirdColor;
+        }
+}
+
+/*section 2 below*/
+.section2 {
+    h1 {
+        text-align: center;
+        color: $thirdColor;
+        margin: 0;
+    }
+    .section2Container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+/*section 3 below*/
+.section3 {
+    .section3HeadImg {
+        display: flex;
+        justify-content: center;
+    }
+}

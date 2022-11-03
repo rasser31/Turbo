@@ -75,17 +75,59 @@ body {
 
 /*section 2 below*/
 .section2 {
-  margin: 5%;
+  text-align: center;
+  padding: 5%;
+  padding-top: 30px;
   background-color: #DDB4C4;
 }
 .section2 h1 {
   text-align: center;
-  color: #E17342;
+  color: #FFFFF3;
+  font-size: 5em;
+  margin: 0;
+}
+.section2 img {
+  width: 30vw;
 }
 .section2 .section2Container {
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
+  justify-content: center;
+}
+.section2 .section2Container .section2profil img {
+  border-radius: 0px;
+  margin-bottom: 0.5rem;
+}
+.section2 .section2Container .section2profil p {
+  margin: 0;
 }
 .section2 .section2Container img {
   width: 200px;
   margin: 40px;
+}
+
+/*section 3 herunder*/
+.section3 {
+  color: #FFFFF3;
+  text-align: center;
+}
+.section3 .section3Container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.section3 img {
+  width: 30vw;
+}
+.section3 .section3Container .section3ContainerTxt1 p {
+  margin-bottom: 5rem;
+}
+.section3 .section3Container .section3ContainerTxt1 a {
+  text-decoration: none;
+  color: #FFFFF3;
+  padding: 0.7em 2em;
+  border: solid #E17342;
+}
+.section3 .section3Container .section3ContainerTxt1 a:hover {
+  background-color: #E17342;
 }/*# sourceMappingURL=style.css.map */

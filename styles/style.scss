@@ -76,17 +76,66 @@ body{
 
 /*section 2 below*/
 .section2 {
-    margin: 5%;
+    text-align: center;
+    padding: 5%;
+    padding-top: 30px;
     background-color: $secondaryColor;
     h1 {
         text-align: center;
-        color: $thirdColor;
+        color: $fourthColor;
+        font-size: 5em;
+        margin:0;
+    }
+    img {
+        width: 30vw;
     }
     .section2Container {
+        display: flex;
+        flex-wrap: wrap;
         text-align: center;
+        justify-content: center;
+        .section2profil {
+            img {
+                border-radius: 0px;
+                margin-bottom: 0.5rem;
+            }
+            p {
+                margin: 0;
+            }
+        }
         img {
             width: 200px;
             margin: 40px;
+        }
+    }
+}
+
+/*section 3 herunder*/
+.section3 {
+    color: $fourthColor;
+    text-align: center;
+    .section3Container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    img {
+        width: 30vw;
+
+    }
+    .section3Container {
+        .section3ContainerTxt1 {
+            p {
+                margin-bottom: 5rem;
+            }
+            a {
+                text-decoration: none;
+                color: $fourthColor;
+                padding: 0.7em 2em;
+                border: solid $thirdColor;
+            }
+            a:hover {
+                background-color: $thirdColor;
+            }
         }
     }
 }

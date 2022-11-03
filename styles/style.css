@@ -2,8 +2,8 @@
 /*fonts*/
 body {
   font-family: "Source Sans Pro", sans-serif;
-  margin: 5%;
   background-color: #172F71;
+  margin: 0;
 }
 
 /*Section start the first you see on the page*/
@@ -16,9 +16,8 @@ body {
 
 /*section 1 below*/
 .section1 {
+  margin: 5%;
   background-color: #172F71;
-  /*section 2 below*/
-  /*section 3 below*/
 }
 .section1 header {
   display: flex;
@@ -73,15 +72,20 @@ body {
   border: none;
   border-radius: 0.1em;
 }
-.section1 .section2 h1 {
+
+/*section 2 below*/
+.section2 {
+  margin: 5%;
+  background-color: #DDB4C4;
+}
+.section2 h1 {
   text-align: center;
   color: #E17342;
 }
-.section1 .section2 .section2Container img {
-  width: 200px;
-  height: 200px;
+.section2 .section2Container {
+  text-align: center;
 }
-.section1 .section3 .section3HeadImg {
-  display: flex;
-  justify-content: center;
+.section2 .section2Container img {
+  width: 200px;
+  margin: 40px;
 }/*# sourceMappingURL=style.css.map */

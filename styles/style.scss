@@ -2,9 +2,8 @@
 
 body{
     font-family: $paragraphFont;
-    margin: 5%;
     background-color: $primaryColor;
-
+    margin: 0;
 }
 /*Section start the first you see on the page*/
 .sectionStart {
@@ -16,6 +15,7 @@ body{
 
 /*section 1 below*/
 .section1 {
+    margin: 5%;
     background-color: $primaryColor;
     header {
         display: flex;
@@ -72,26 +72,21 @@ body{
             border-radius: 0.1em;
         }
 }
+}
 
 /*section 2 below*/
 .section2 {
+    margin: 5%;
+    background-color: $secondaryColor;
     h1 {
         text-align: center;
         color: $thirdColor;
     }
     .section2Container {
+        text-align: center;
         img {
             width: 200px;
-            height: 200px;
+            margin: 40px;
         }
     }
-}
-
-/*section 3 below*/
-.section3 {
-    .section3HeadImg {
-        display: flex;
-        justify-content: center;
-    }
-}
 }

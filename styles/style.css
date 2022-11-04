@@ -45,8 +45,8 @@ body {
   width: 9vw;
   height: 9vw;
 }
-.section1 header .section1SocialIcon {
-  float: right;
+.section1 header .section1SocialIcon:hover {
+  opacity: 40%;
 }
 .section1 .section1Container {
   margin-bottom: 45%;

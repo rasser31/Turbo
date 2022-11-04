@@ -21,6 +21,7 @@ body{
         display: flex;
         justify-content: space-between;
         margin-bottom: 5%;
+        
         a {
             padding-right: 2em;
         }
@@ -44,8 +45,8 @@ body{
             height: 9vw;
         }
     }
-    .section1SocialIcon {
-        float: right;
+    .section1SocialIcon:hover {
+        opacity: 40%;
     }
     }
     .section1Container {

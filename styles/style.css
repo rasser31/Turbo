@@ -24,6 +24,9 @@ body {
   justify-content: space-between;
   margin-bottom: 5%;
 }
+.section1 header a {
+  padding-right: 2em;
+}
 .section1 header button {
   position: fixed;
   right: 2rem;
@@ -38,15 +41,12 @@ body {
 .section1 header button img:hover {
   opacity: 30%;
 }
-.section1 header h1 {
-  color: #FFFFF3;
-  text-decoration: underline;
-  font-size: xxx-large;
-  margin-right: 10vw;
-}
 .section1 header .headerLogo img {
   width: 9vw;
   height: 9vw;
+}
+.section1 header .section1SocialIcon {
+  float: right;
 }
 .section1 .section1Container {
   margin-bottom: 45%;
@@ -152,9 +152,9 @@ body {
 }
 .section4 ul li {
   color: #FFFFF3;
-  font-weight: bold;
   font-size: 1.2vw;
 }
 .section4 ul li a {
   color: #FFFFF3;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

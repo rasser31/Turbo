@@ -21,6 +21,9 @@ body{
         display: flex;
         justify-content: space-between;
         margin-bottom: 5%;
+        a {
+            padding-right: 2em;
+        }
         button {
             position: fixed;
             right: 2rem;
@@ -35,17 +38,14 @@ body{
                 opacity: 30%;
             }
     }
-    h1 {
-        color: $fourthColor;
-        text-decoration: underline;
-        font-size: xxx-large;
-        margin-right: 10vw;
-    }
     .headerLogo {
         img {
             width: 9vw;
             height: 9vw;
         }
+    }
+    .section1SocialIcon {
+        float: right;
     }
     }
     .section1Container {
@@ -161,11 +161,10 @@ body{
     ul{
         li{
             color: $fourthColor;
-            font-weight: bold;
             font-size: 1.2vw;
-
             a{
                 color: $fourthColor;
+                text-decoration: none;
             }
         }
     }

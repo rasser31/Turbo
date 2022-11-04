@@ -54,6 +54,11 @@ body {
 .section1 .section1Container .Section1Info {
   float: left;
 }
+.section1 .section1Container .Section1Info h2 {
+  color: #E17342;
+  text-decoration: underline;
+  margin: 0;
+}
 .section1 .section1Container iframe {
   float: right;
   width: 45vw;

@@ -52,6 +52,11 @@ body{
         margin-bottom: 45%;
         .Section1Info {
             float: left;
+            h2 {
+                color: $thirdColor;
+                text-decoration: underline;
+                margin: 0;
+            }
         }
         iframe {
             float: right;
